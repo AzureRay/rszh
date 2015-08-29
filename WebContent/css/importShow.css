@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+#drData{
+	width:720px;
+	height:450px;
+	font-size:12px;          /*表格里的字体大小*/
+	margin-top:5px;
+	overflow:auto;              /*当表格的宽度超过mainData容器的宽度时，会自动显示滚动条*/
+}
+#drTable{
+	/*border:1px solid black;*/
+	}
+#drData td{
+    min-width:100px;      /*指定每一列的宽度  表的列名不能超过六个字*/
+	 white-space:nowrap;     /*表格中增加列时，当表格的宽度超过容器的宽度时，不会压缩已有列的宽度。*/	 
+	}
+#drData tr{
+	background-color:white;
+	text-align:center;          /*让单元格中的内容水平居中*/
+	}

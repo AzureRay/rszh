@@ -1,0 +1,128 @@
+@CHARSET "UTF-8";
+#rssz{
+	list-style-type:none;
+	padding-top:10px;
+}
+#rssz li{
+	margin:20px 0px;
+	width:100px;
+	htight:50px;
+	background:#ECF3FB;
+	text-align:center;
+}
+#rssz a{
+	text-decoration:none;
+	}
+#rssz a:link{
+	color:black;	
+}
+#rssz a:visited{
+	color:black;
+	
+}
+#rssz a:hover{
+	color:black;	
+}
+
+#rssz a:active{
+	color:black;
+}
+.hidden{
+	display:none;
+	clear:both;}
+.show{
+	height:450px;
+	/*border:1px solid yellow;*/
+	display:block;
+	clear:both;	
+	}
+/*点击部门设置时，在右边显示树。重新定义的样式*/
+#jlszLeft{
+	width:230px;
+	height:340px;
+	/*border:1px solid red;*/
+	margin-left:40px;
+	margin-top:0px;
+}
+#jlszLeft li{
+	margin-bottom:10px;
+}
+
+#jlszLeft a{
+	text-decoration:none;
+	}
+#jlszLeft a:link{
+	color:black;	
+}
+#jlszLeft a:visited{
+	color:black;
+	
+}
+#jlszLeft a:hover{
+	color:#3399FF;
+	font-size:18px;
+	font-weight:bold;	
+}
+#rssz a:active{
+	color:black;
+}
+
+
+.dtreeBmsz{
+		width:700px;
+		height:500px;
+		margin-top:10px;
+		overflow:auto; 		
+		}
+	.dtreeBmsz p,.dtreeBmsz p a{
+	color:#FF4A00;
+	font-weight:bold;
+}
+.dtreeBmsz p{
+	float:right;
+	}
+	
+	/*dtreeBmsz的样式*/
+.dtreeBmsz {
+	color: #666;
+	white-space: nowrap; 
+}
+.dtreeBmsz img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtreeBmsz a {
+	color: #333;
+	text-decoration: none;
+}
+.dtreeBmsz a.node, .dtreeBmsz a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+.dtreeBmsz a.node:hover, .dtreeBmsz a.nodeSel:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.dtreeBmsz a.nodeSel {
+	background-color: #c0d2ec;
+}
+.dtreeBmsz .clip {
+	overflow: hidden;
+}
+/*点击档案设置出来的表格-样式*/
+#daszData{
+	width:500px;
+	height:400px;
+	font-size:12px;          /*表格里的字体大小*/
+	margin-top:5px;
+	margin-left:10px;
+	overflow:auto;              /*当表格的宽度超过mainData容器的宽度时，会自动显示滚动条*/
+}
+#daszData td{
+     min-width:60px;      
+	 white-space:nowrap;     /*表格中增加列时，当表格的宽度超过容器的宽度时，不会压缩已有列的宽度。*/	 
+	}
+#daszData tr{
+	background-color:white;
+	text-align:center;          /*让单元格中的内容水平居中*/
+	}

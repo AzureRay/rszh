@@ -1,0 +1,264 @@
+
+body,div,form,p,input,select,option,table,a{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	font-family:"Microsoft Yahei";
+	font-size:14px;
+	background-image:url(../images/bodyBack.jpg);
+	background-repeat:repeat;
+	}
+#header,#content,#footer{
+	width:1024px;
+	}
+
+
+#header{
+	height:170px;
+	margin:0 auto;
+	 background:#F5F5F5; 
+	}
+#header p{
+	width:200px;
+	height:30px;	   
+	margin-top:0px;
+	float:right;
+	text-align:center;	
+	line-height:30px;	
+	}
+#header p a{
+	text-decoration:none;
+	color:gray;            
+	margin:5px;
+	}
+#header p a:hover{
+	color:#579FE6;        
+	}
+#headerCenter{
+	width:500px;
+	height:50px;
+	clear:both;         
+	margin:0 auto;
+	} 
+#headerCenter input{
+	height:44px;
+	line-height:40px;
+	font-size:18px;
+	}
+#keywords{
+	border:1px solid gray;
+	}
+#sousuo{
+	background:#F0F0F0;
+	border:1px solid gray;
+	color:black;
+	font-size:24px;
+	width:80px;
+	float:right;
+	}
+#nav{
+	margin-top:15px;
+	height:120px;	
+	position:relative;
+	font-size:18px;   
+
+	}
+.menuHead{
+	width:120px;
+	height:30px;
+     
+	background:#579FE6;
+	border:1px solid lightgray;
+	}
+
+			  .menuChoices{
+			  	width:600px;	
+			  	line-height:30px;		                 
+			  	color:black;	
+			  	}
+			  #menuTwochoices,#menuThreechoices,#menuFourchoices,#menuFivechoices,#menuSixchoices,#menuSevenchoices{
+			  	font-size:16px; 	               
+			  	text-align:left;
+			              
+			  	background:#4592DE;
+			  	}
+			  #menuTwochoices{
+			  	width:250px;
+			  	}
+			  #menuThreechoices{
+			  	width:170px;
+			  	}
+			  #menuFourchoices{
+			  	width:550px;
+			  	}
+			  #menuFivechoices{
+			  	width:300px;
+			  	}
+			  #menuSixchoices{
+			  	width:300px;
+			  	}
+			  #menuSevenchoices{
+			  	width:230px;
+			  	}
+			  .menu a{
+			  	color:lightblue;
+			  	text-decoration:none;
+			  	}
+			  .menuHead a{
+			  	color:white;
+			  	}
+			  .menuHead a:hover{		  	
+			  	color:gray;
+			  }
+			  .menuChoices a:hover{	
+			  	color:white;			  	
+			  	}
+			
+			  #menuOne,#menuTwo,#menuThree,#menuFour,#menuFive,#menuSix,#menuSeven{
+			  	position:absolute;
+			  	top:5px;
+			  	width:120px;
+			  	height:30px;		
+			  	text-align:center;
+			  	line-height:30px;				 	  	
+			  	}
+			  #menuOne{
+			  	left:10px;  	
+			  	}
+			  #menuTwo{			  
+			  	left:130px;			  	  			  	
+			  	}
+			  #menuThree{
+			  	left:250px;
+			  	}
+			  #menuFour{
+			  	left:370px;
+			  	}
+			  #menuFive{
+			  	left:490px;
+			  	}
+			  #menuSix{
+			  	left:610px;
+			  	}
+			  #menuSeven{
+			  	left:730px;
+			  	}
+			  	
+
+#content{
+	width:1022px;
+	height:550px;
+	margin:0 auto;
+	background:white;
+	position:relative;
+	border:1px solid gray; 
+	}
+#contentLeft{
+	width:300px;
+  height:550px;
+	}
+#contentLeftTop{
+  padding:10px 0 0 10px;	
+	}
+#contentLeftBottom{
+	margin:5px 0 5px 5px;
+	padding:10px 0 0 10px;
+	width:270px;
+	height:490px;
+	       
+	}
+	.dtree{
+		width:270px;
+		height:500px;
+		overflow:auto; 
+		
+		
+		}
+	.dtree p,.dtree p a{
+	color:#FF4A00;
+	font-weight:bold;
+}
+.dtree p{
+	float:right;
+	}
+	
+	
+.dtree {
+	color: #666;
+	white-space: nowrap; 
+}
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	color: #333;
+	text-decoration: none;
+}
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.dtree a.nodeSel {
+	background-color: #c0d2ec;
+}
+.dtree .clip {
+	overflow: hidden;
+}
+
+#contentRight{	
+	width:720px;
+	height:550px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	
+	}
+#tools{
+	width:700px;
+	height:50px;
+	
+	float:right; 
+	}
+#tools button{
+	width:75px;
+	height:30px;
+	border:1px solid gray;
+	margin:10px 3px;
+	background-color:#FDAD72; 
+	
+	}
+#mainData{
+	width:720px;
+	height:500px;
+	font-size:16px;         
+	margin-top:50px;
+	overflow:auto;             
+}
+#mainTable{
+	
+	}
+#mainData td{
+   min-width:100px;       
+	 white-space:nowrap;     
+	 
+	}
+#mainData tr{
+	background-color:white;
+	text-align:center;         
+	}
+
+
+#footer{
+	height:100px;
+	margin:0 auto;
+	background:#F5F5F5;
+	text-align:center;
+	line-height:100px;
+	color:black;
+	}

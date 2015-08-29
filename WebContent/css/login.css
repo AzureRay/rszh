@@ -1,0 +1,41 @@
+body,div,div button{
+	margin:0px;
+	padding:0px;	
+	font-size:18px;
+	font-family:Arial,"ËÎÌו";
+	}
+body{
+		background-image:url(../images/loginPic.jpg);
+		background-repeat:no-repeat;
+		width:960px;
+		/*width:1350px;
+	  height:626px;*/
+	  margin:3px auto;
+		}
+#loginMain{
+	/*width:1350px;
+	height:626px;
+	padding:270px 870px;*/
+	width:250px;
+	height:150px;
+	position:absolute;
+	left:862px;
+	top:270px;
+	}
+input{
+	height:30px;
+	line-height:30px;
+	vertical-align:middle;
+	border:1px solid black;
+	}
+div p{
+	text-align:center;
+	}
+ #loginBtn{
+	width:154px;
+	height:28px;
+	position:absolute;
+	left:76px;
+	top:125px;
+	background-color:#fd9c4d;	
+	}
